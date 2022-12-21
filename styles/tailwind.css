@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body{
+    @apply text-[12px] 3xl:text-[25px] lg:text-[16px] 
+}
+
+.text-80 {
+    @apply text-[30px] xl:text-[50px] 2xl:text-[80px]
+}
+
+.text-50 {
+    @apply text-[25px] xl:text-[40px] 2xl:text-[50px]
+}
+
+
+.text-title {
+    @apply text-[15px] xl:text-[18px] 2xl:text-[25px] font-semibold 
+}
+
+.text-30 {
+    @apply text-[16px] xl:text-[22px] 2xl:text-[30px]
+}
+
+.text-35 {
+    @apply text-[25px] xl:text-[30px] 2xl:text-[35px]
+}
+
+.text-20 {
+    @apply text-[11px] xl:text-[15px] 2xl:text-[20px] 
+}
+.text-18 {
+    @apply text-[9px] xl:text-[13.5px] 2xl:text-[18px] 
+}
+
+.text-16 {
+    @apply text-[9px] xl:text-[12px] 2xl:text-[16px] 
+}
+
+.text-14 {
+    @apply text-[8px] xl:text-[10px] 2xl:text-[14px] 
+}
+
+.section-hedaer{
+    @apply font-semibold  text-[22px] xl:text-[30px] 3xl:text-[50px] md:leading-[30px] sm:leading-[20px] xl:leading-[30px] 3xl:leading-[60px]
+}
+
+.container-fluid {
+    @apply container mx-auto px-4 lg:px-16
+}
+
+.container {
+    @apply px-5 md:px-8 xl:px-[60px] 2xl:px-[100px] 3xl:px-[0px]
+}
+
+.points-container {
+    @apply  3xl:w-[1250px] xl:w-[780px] lg:w-[700px] sm:w-[43w0px] w-[95%]
+}
+
+.button-style{
+    @apply px-6 py-3 border rounded-[6px] text-center place-content-center
+}
+
+.button-plane {
+    @apply  text-white button-style border-transparent
+}
+
+.button-primary{
+    @apply bg-tertiary border-tertiary  text-white button-style
+}
+
+.button-primary-disabled {
+    @apply bg-gray-300 border-gray-300 text-gray-600
+}
+
+#nprogress .bar {
+    @apply !bg-primary
+}
+
+#nprogress .spinner {
+    @apply hidden
+}
+
+.button-outline {
+    @apply border-tertiary  text-tertiary button-style
+}
+
+
+.button-outline-white {
+    @apply border-white text-white button-style hover:text-tertiary hover:bg-white
+}
+
+.button-white {
+    @apply border-white text-tertiary bg-white button-style
+}
+
+.drop-down-btn {
+    @apply flex justify-between bg-white w-full items-center
+}
+
+.drop-down-btn-dark {
+    @apply  !bg-gray-100
+}
+
+.drop-down-btn-search {
+    @apply px-4 text-gray-500 input_box_size
+}
+
+.input_box_size{
+    @apply h-[40px] xl:h-[50px] 3xl:h-[73px]
+}
+
+.drop-down-btn-search-wrapper {
+    @apply input_box_size
+}
+
+.search-list-icon{
+    @apply h-[3.4px] ring-[3.4px] xl:h-[5px] xl:ring-[5px] 3xl:h-[7px] 3xl:ring-[7px] aspect-square ml-[10px] bg-white  ring-tertiary rounded-full mr-[20px]
+}
+
+.search-inner-button{
+    @apply border border-tertiary rounded text-tertiary p-[7px]  xl:p-[10px] 3xl:p-[15px] 
+}
+
+.search-inner-button-active {
+    @apply  search-inner-button bg-tertiary !text-white
+}
+
+.footer-text{
+    @apply text-[14px] 3xl:text-[20px]
+}
+
+.card-tag{
+    @apply  bg-primary text-white py-1 px-2 xl:py-1 xl:px-2 drop-shadow-md rounded-[2px] xl:rounded-[4px] max-w-max text-[10px] xl:text-[13px] 2xl:text-[20px]
+}
+
+.btn-outline{
+    @apply flex justify-center items-center border py-2 md:py-4 text-center px-10 border-white hover:bg-white text-white hover:text-apple rounded-md
+}
+
+.slider_value{
+    @apply bg-gray-500 text-white py-[2px] px-2 text-[8px] xl:text-[12px] 3xl:text-[16px] rounded-sm whitespace-nowrap top-[20px] xl:top-[30px] 3xl:top-[40px]
+}
+
+.search-inner-button-bottom{
+    @apply border border-tertiary py-[14px] xl:py-[22px] 3xl:py-[30px]
+}
+
+.price-slider-range-height{
+    @apply h-[10px] xl:h-[15px] 3xl:h-[25px]
+}
+
+.price-slider-thumb-size {
+    @apply h-[15px]  xl:h-[20px] 3xl:h-[35px] aspect-square
+}
+
+.thumb,
+.thumb::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+    pointer-events: none;
+    z-index: 10
+}
+
+.tbumb_styles{
+    @apply price-slider-thumb-size;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 0px #cccccc;
+    cursor: pointer;
+    pointer-events: all;
+    position: relative;
+}
+
+.image-viewer-button{
+    @apply grid place-content-center px-3 cursor-pointer w-20
+}
+
+.house-list{
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-[28px] xl:gap-[45px] 3xl:gap-[60px]
+}
+
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+    @apply tbumb_styles
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+    @apply tbumb_styles
+}
+
+.adv-card{
+            
+    @apply bg-white rounded-md
+}
+
+.adv-card-header{
+            
+    @apply bg-limeade text-white font-semibold px-6 py-4 rounded-t-md
+}
+
+.house-details-img{
+    @apply 3xl:h-[50px] xl:h-[31px] h-[20px]
+}
+
+.adv-list-item{
+    @apply flex items-center space-x-1 border-b py-[15px] px-6 border-[#EFEFEF]
+}
+
+.house-feature{
+    @apply flex items-center space-x-4 py-2 px-3 bg-white shadow-md rounded-md
+}
+
+.adv-list-item-justified {
+    @apply grid grid-cols-2 items-center border-b py-[6px] xl:py-[9px] 3xl:py-[12px] text-[10px] xl:text-[18px] 3xl:text-[20px]  px-6 border-[#EFEFEF]
+}
+
+.neighborhood-info-img{
+    @apply mx-auto w-[20px] xl:w-[28px] 3xl:w-auto
+}
+.neighborhood-info{
+    @apply grid place-content-center text-center space-y-3  aspect-square bg-white shadow rounded-md 
+}
+
+
+.with-links a{
+    @apply text-tertiary
+}
+
+.limits-icon{
+    @apply 3xl:w-[40px] xl:w-[25px] w-[15px]
+}
+
+.banner-wrapper{
+    @apply relative pr-4 flex items-center bg-gradient-to-r from-tertiary to-primary py-5 xl:py-[30px] 3xl:py-[60px] rounded-lg
+}
+
+.points-side-bar{
+    @apply 3xl:w-[400px] xl:w-[300px] w-[200px] bg-white 3xl:p-[27px] p-[15px]
+}
+
+.point-card-points{
+    @apply w-[150px]
+}
+
+.point-card-description{
+    @apply w-[400px]
+}
+
+.point-card-description-hi{
+    @apply w-[670px]
+}
+
+.recharts-layer .recharts-cartesian-axis-tick{
+    font-size: 9px;
+}
+
+.input-field{
+    @apply border-b border-gray-500 text-gray-500 placeholder-gray-500 focus:border-primary focus:outline-none text-sm focus:bg-green-50 w-full py-1
+}

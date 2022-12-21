@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="Group_11576" data-name="Group 11576" transform="translate(-3461.447 7616.5)">
+    <g id="Ellipse_63" data-name="Ellipse 63" transform="translate(3461.447 -7616.5)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="116" cy="116" r="116" stroke="none"/>
+      <circle cx="116" cy="116" r="115.5" fill="none"/>
+    </g>
+    <g id="Ellipse_64" data-name="Ellipse 64" transform="translate(3481.447 -7598.5)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="97.5" cy="97.5" r="97.5" stroke="none"/>
+      <circle cx="97.5" cy="97.5" r="97" fill="none"/>
+    </g>
+    <g id="Ellipse_65" data-name="Ellipse 65" transform="translate(3506.447 -7571.5)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="72.5" cy="72.5" r="72.5" stroke="none"/>
+      <circle cx="72.5" cy="72.5" r="72" fill="none"/>
+    </g>
+    <path id="Icon_material-group" data-name="Icon material-group" d="M39.879,26.316c4.247,0,7.65-4.2,7.65-9.408S44.126,7.5,39.879,7.5,32.2,11.7,32.2,16.908,35.632,26.316,39.879,26.316Zm-20.469,0c4.247,0,7.65-4.2,7.65-9.408S23.657,7.5,19.41,7.5s-7.676,4.2-7.676,9.408S15.163,26.316,19.41,26.316Zm0,6.272c-5.962,0-17.91,3.669-17.91,10.976V51.4H37.32v-7.84C37.32,36.257,25.372,32.588,19.41,32.588Zm20.469,0a24.437,24.437,0,0,0-2.482.157,14.07,14.07,0,0,1,5.04,10.819V51.4H57.789v-7.84C57.789,36.257,45.84,32.588,39.879,32.588Z" transform="translate(3547.803 -7529.952)" fill="#3aa935"/>
+  </g>
+</svg>

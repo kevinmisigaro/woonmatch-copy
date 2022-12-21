@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="Group_11575" data-name="Group 11575" transform="translate(-3732.693 7800.981)">
+    <g id="Ellipse_66" data-name="Ellipse 66" transform="translate(3732.693 -7800.981)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="116" cy="116" r="116" stroke="none"/>
+      <circle cx="116" cy="116" r="115.5" fill="none"/>
+    </g>
+    <g id="Ellipse_67" data-name="Ellipse 67" transform="translate(3752.693 -7782.981)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="97.5" cy="97.5" r="97.5" stroke="none"/>
+      <circle cx="97.5" cy="97.5" r="97" fill="none"/>
+    </g>
+    <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(3776.193 -7756.481)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="72.5" cy="72.5" r="72.5" stroke="none"/>
+      <circle cx="72.5" cy="72.5" r="72" fill="none"/>
+    </g>
+    <g id="Layer_2" data-name="Layer 2" transform="translate(3820.485 -7717.451)">
+      <path id="Path_5954" data-name="Path 5954" d="M64.546,32.27a2.208,2.208,0,0,1-2,1.151H56.005V51.989c0,3.076-2.927,5.57-6.537,5.57H40.753A2.037,2.037,0,0,1,38.575,55.7V44.562A2.037,2.037,0,0,0,36.4,42.705H32.038a2.037,2.037,0,0,0-2.179,1.857V55.7A2.037,2.037,0,0,1,27.68,57.56H18.965c-3.61,0-6.537-2.494-6.537-5.57V33.422H5.892a2.208,2.208,0,0,1-2-1.151,1.66,1.66,0,0,1,.458-2.024L32.67,6.109a2.453,2.453,0,0,1,3.094,0L64.089,30.247a1.66,1.66,0,0,1,.458,2.024Z" transform="translate(0)" fill="#3aa935"/>
+    </g>
+    <path id="Icon_awesome-plus-circle" data-name="Icon awesome-plus-circle" d="M12.1.562A11.634,11.634,0,1,0,23.633,12.2,11.583,11.583,0,0,0,12.1.562ZM18.8,13.51a.562.562,0,0,1-.558.563H13.958v4.316a.562.562,0,0,1-.558.563H10.8a.562.562,0,0,1-.558-.563V14.073H5.958A.562.562,0,0,1,5.4,13.51V10.883a.562.562,0,0,1,.558-.563h4.279V6a.562.562,0,0,1,.558-.563h2.6A.562.562,0,0,1,13.958,6V10.32h4.279a.562.562,0,0,1,.558.563Z" transform="translate(3870.561 -7677.438)" fill="#93c01f"/>
+  </g>
+</svg>

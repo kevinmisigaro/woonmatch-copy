@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="Group_11576" data-name="Group 11576" transform="translate(-3471.947 7590.775)">
+    <g id="Ellipse_48" data-name="Ellipse 48" transform="translate(3471.947 -7590.775)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="116" cy="116" r="116" stroke="none"/>
+      <circle cx="116" cy="116" r="115.5" fill="none"/>
+    </g>
+    <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(3489.947 -7572.775)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="97.5" cy="97.5" r="97.5" stroke="none"/>
+      <circle cx="97.5" cy="97.5" r="97" fill="none"/>
+    </g>
+    <g id="Ellipse_50" data-name="Ellipse 50" transform="translate(3514.947 -7547.275)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="72.5" cy="72.5" r="72.5" stroke="none"/>
+      <circle cx="72.5" cy="72.5" r="72" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-document" data-name="Icon ionic-md-document" d="M32.155,3.375H12.043A5.088,5.088,0,0,0,6.75,8.229V49.005a5.088,5.088,0,0,0,5.293,4.854H43.8a5.088,5.088,0,0,0,5.293-4.854v-30.1ZM30.038,20.85V7.258L44.858,20.85Z" transform="translate(3564.476 -7505.811)" fill="#3aa935"/>
+  </g>
+</svg>

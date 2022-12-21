@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class="">
+  <g>
+    <title xmlns="http://www.w3.org/2000/svg">User</title>
+    <path xmlns="http://www.w3.org/2000/svg" d="M356.6,280.56a103.366,103.366,0,1,1-4.58.1C353.54,280.59,355.06,280.56,356.6,280.56Z" style="" fill="#efefef" data-original="#00acea" class=""/>
+    <polygon xmlns="http://www.w3.org/2000/svg" points="400.81 373.47 400.81 443.91 312.39 443.91 312.39 373.47 324.38 373.47 388.82 373.47 400.81 373.47" style="" fill="#c7c7c7" data-original="#00efd1" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="M388.82,372.97v.5H324.38V356.54a32.338,32.338,0,0,1,32.22-32.53h.27c17.72,0,31.95,14.63,31.95,32.53Z" style="" fill="#efefef" data-original="#00acea" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="M352,280.12l.02.54a103.461,103.461,0,0,0-91.56,141.43H52V280.12a72.322,72.322,0,0,1,72.29-72.32,96.433,96.433,0,0,0,155.42,0A72.322,72.322,0,0,1,352,280.12Z" style="" fill="#429b35" data-original="#fedb41" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="M202,24.64a80.355,80.355,0,1,1-80.36,80.35A80.36,80.36,0,0,1,202,24.64Z" style="" fill="#429b35" data-original="#fedb41" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="M396.82,372.97h-16V356.54c0-13.526-10.744-24.53-23.95-24.53h-.27a24.4,24.4,0,0,0-24.22,24.53v16.43h-16V356.54a40.421,40.421,0,0,1,40.22-40.53h.27c22.028,0,39.95,18.181,39.95,40.53Z" style="" fill="#429b35" data-original="#fedb41" class=""/>
+    <path xmlns="http://www.w3.org/2000/svg" d="M355.85,426.43a8,8,0,0,1-8-8V407.94a8,8,0,1,1,16,0v10.49A8,8,0,0,1,355.85,426.43Z" style="" fill="#429b35" data-original="#fedb41" class=""/>
+  </g>
+</svg>

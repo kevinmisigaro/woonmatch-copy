@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="28" viewBox="0 0 30 28">
+  <g id="comment_1_" data-name="comment (1)" transform="translate(-1 -2)">
+    <g id="_x31_4_comment">
+      <g id="g25">
+        <path id="path15" d="M28,2H4A3,3,0,0,0,1,5V21a3,3,0,0,0,3,3H7v5a1,1,0,0,0,1.625.781L15.851,24H28a3,3,0,0,0,3-3V5a3,3,0,0,0-3-3Zm1,19a1,1,0,0,1-1,1H15.5a1,1,0,0,0-.625.219L9,26.919V23a1,1,0,0,0-1-1H4a1,1,0,0,1-1-1V5A1,1,0,0,1,4,4H28a1,1,0,0,1,1,1Z" fill="#3aa935"/>
+        <g id="g19">
+          <path id="path17" d="M24,12H8a1,1,0,0,1,0-2H24a1,1,0,0,1,0,2Z" fill="#cfd5d9"/>
+        </g>
+        <g id="g23">
+          <path id="path21" d="M16,16H8a1,1,0,0,1,0-2h8a1,1,0,0,1,0,2Z" fill="#cfd5d9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

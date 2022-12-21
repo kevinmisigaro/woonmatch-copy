@@ -1,0 +1,5 @@
+export const primaryColor = '#50a032'
+export const titleBlack = '#535453'
+export const titleLightGreen = '#9ebe46'
+export const textColor = '#5e5f5d'
+export const lightTextColor = '#5f605f'

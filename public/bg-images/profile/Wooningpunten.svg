@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="Group_11575" data-name="Group 11575" transform="translate(-3790.256 7817.402)">
+    <g id="Ellipse_60" data-name="Ellipse 60" transform="translate(3790.256 -7817.402)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="116" cy="116" r="116" stroke="none"/>
+      <circle cx="116" cy="116" r="115.5" fill="none"/>
+    </g>
+    <g id="Ellipse_61" data-name="Ellipse 61" transform="translate(3809.801 -7797.402)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="97.5" cy="97.5" r="97.5" stroke="none"/>
+      <circle cx="97.5" cy="97.5" r="97" fill="none"/>
+    </g>
+    <g id="Ellipse_62" data-name="Ellipse 62" transform="translate(3834.801 -7772.902)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="72.5" cy="72.5" r="72.5" stroke="none"/>
+      <circle cx="72.5" cy="72.5" r="72" fill="none"/>
+    </g>
+    <path id="Icon_simple-sitepoint" data-name="Icon simple-sitepoint" d="M4.221,28.41l4.5,4.553L22.949,46.829l6.1-6.179a2.274,2.274,0,0,0-.117-2.657l-5.6-5.13.025-.013L17.33,26.738a2.221,2.221,0,0,1,.053-2.91L33.624,7.439,26.269,0,4.231,22.22a4.417,4.417,0,0,0,0,6.19Zm48.431,7.922-4.5-4.561L33.934,17.9l-6.128,6.179a2.184,2.184,0,0,0,.114,2.657l5.6,5.1h-.015l6.021,6.109c.686.847-.074,2.87-.074,2.87L23.214,57.2l7.4,7.531,22.035-22.22a4.412,4.412,0,0,0,0-6.19l.005.008Z" transform="translate(3878.861 -7732.27)" fill="#3aa935"/>
+  </g>
+</svg>

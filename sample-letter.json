@@ -1,0 +1,233 @@
+{
+   "optionDetails": {
+      "hasReacted": false,  
+      "hasHadMeeting": true, 
+      "advert": "655E4072-319E-41DB-A45D-DAA859B39F18",
+      "daQuestions": [ 
+         {
+            "children": [],
+            "required": 0,
+            "text": "Als u hieronder klikt op de knop 'Ik bevestig dat ik de aanbieding accepteer' dan accepteert u de woning. Als de verhuurder vervolgens u de woning definitief aanbiedt en u ziet daarna alsnog af van de woning, dan brengt de verhuurder annuleringskosten in rekening",
+            "options": "",
+            "answer": null,
+            "id": "A5529AED-366D-45CE-B02A-57EC8570A792",
+            "type": "Informatie",
+            "title": "Deze acceptatie is niet vrijblijvend"
+         },
+         {
+            "children": [],
+            "required": 0,
+            "text": "<p>Voor de toewijzing is het belangrijk dat wij over complete en actuele gegevens van u beschikken. Controleer daarom of u alle noodzakelijke documenten heeft ge&uuml;pload voor u hieronder op de knop 'Ik bevestig dat ik de aanbieding accepteer' klikt.</p><p><strong>Gevraagde documenten uploaden</strong> (van u en uw eventuele partner):</p><ul><li>Inkomensverklaring van de Belastingdienst of een (voorlopige) aanslag van het voorgaande jaar of het jaar daarvoor van alle volwassen personen die meeverhuizen. Voor (volwassen) kinderen is dit niet nodig. Het inkomen van kinderen telt niet mee. De inkomensverklaring kunt u downloaden bij de Belastingdienst http://www.belastingdienst.nl met uw DigiD. Of u belt 0800 0543, dan duurt het maximaal 5 werkdagen voordat u deze ontvangt.</li><li>Historisch uittreksel Gemeentelijke Basisregistratie Personen, van uw gemeente waarop staat waar u de laatste5 jaar heeft gewoond, &eacute;n waarop de burgerlijke staat is vermeld (gehuwd, ongehuwd etc.). Dit uittreksel mag maximaal 6 maanden oud zijn.</li><li>Verhuurdersverklaring(en) van de laatste 2 jaar (maximaal 1 maand oud)</li><li>Kopie toegewezen urgentieverklaring (indien van toepassing).</li><li>Overige documenten indien van toepassing. Bijvoorbeeld Echtscheidingspapieren of een Beschikking en toestemming Bewindvoerder.</li></ul>&nbsp;<p>&nbsp;</p>",
+            "options": "",
+            "answer": null,
+            "id": "22031C41-A525-4462-B3DE-88C31FBB36CA",
+            "type": "Informatie",
+            "title": "Check of u alle documenten heeft geüpload"
+         },
+         {
+            "children": [],
+            "required": 1,
+            "text": "",
+            "options": "",
+            "answer": null,
+            "id": "F61437DA-1C36-4378-9731-94E6CE9A667F",
+            "type": "Nummerveld",
+            "title": "Hoeveel volwassenen verhuizen er mee (incl. uzelf)"
+         },
+         {
+            "children": [
+               {
+                  "required": 1,
+                  "text": "Vul alle gegevens zorgvuldig en juist in",
+                  "parentValue": "1",
+                  "options": "",
+                  "answer": null,
+                  "id": "CC4AAE75-1CFB-4A8E-9DDF-57D153A82169",
+                  "type": "NAW",
+                  "title": "Gegevens van meeverhuizende partner"
+               }
+            ],
+            "required": 1,
+            "text": "<p>Zo ja, vul hieronder dan de gegevens partner in.</p>",
+            "options": "",
+            "answer": null,
+            "id": "23D455EB-F4F4-4076-B3C3-60E2869888DF",
+            "type": "Toggle",
+            "title": "Heeft u een meeverhuizende partner?"
+         },
+         {
+            "children": [
+               {
+                  "required": 1,
+                  "text": "Vul de volledige namen en geboortedatum(s) van uw kind(eren) in.",
+                  "parentValue": "1",
+                  "options": "",
+                  "answer": null,
+                  "id": "5E6DD34C-E96A-4A5D-B144-99B14C3EBC5B",
+                  "type": "Textveld",
+                  "title": "Gegevens van meeverhuizende kinderen"
+               }
+            ],
+            "required": 1,
+            "text": "",
+            "options": "",
+            "answer": null,
+            "id": "0A167120-D190-4D4E-92E5-A8887A28CB3E",
+            "type": "Toggle",
+            "title": "Heeft u kinderen die meeverhuizen?"
+         },
+         {
+            "children": [
+               {
+                  "required": 1,
+                  "text": "Heeft uw bewindvoerder schriftelijk akkoord gegeven voor de verhuizing. Zo ja zorg dan dat dit document ge&uuml;pload is bij 'Overige documenten' bij 'Mijn gegevens'",
+                  "parentValue": "1",
+                  "options": "",
+                  "answer": null,
+                  "id": "2F7661BC-E472-4DA0-8F9C-7D4A3E0B4415",
+                  "type": "Toggle",
+                  "title": "Is de bewindvoerder akkoord met een verhuizing"
+               },
+               {
+                  "required": 1,
+                  "text": "",
+                  "parentValue": "1",
+                  "options": "",
+                  "answer": null,
+                  "id": "A487A0D0-2F91-4A2D-988D-9F76A86FCBCA",
+                  "type": "Bedrijfsgegevens",
+                  "title": "Contactgevens van de bewindvoerder"
+               }
+            ],
+            "required": 1,
+            "text": "Zo ja, voor hieronder dan de gegevens van de bewindvoerder in.",
+            "options": "",
+            "answer": null,
+            "id": "DA16DD50-4210-4FE4-A8C8-9901272DA446",
+            "type": "Toggle",
+            "title": "Heeft u een bewindvoerder?"
+         },
+         {
+            "children": [],
+            "required": 1,
+            "text": "Wij zullen een automatische incasso voorbereiden van de huur waarvoor we uw IBAN nodig hebben.&nbsp;",
+            "options": "",
+            "answer": null,
+            "id": "8C5863E9-3388-4B21-8F8C-EE1A6DDC42B8",
+            "type": "Textveld",
+            "title": "IBAN nummer"
+         },
+         {
+            "children": [
+               {
+                  "required": 1,
+                  "text": "",
+                  "parentValue": "0",
+                  "options": "",
+                  "answer": null,
+                  "id": "7D7AD0DD-8DF3-46FC-910C-48094DEB0AC6",
+                  "type": "Toggle",
+                  "title": "Bent u inwonend?"
+               },
+               {
+                  "required": 1,
+                  "text": "Zo ja, dan hoeft u geen verhuurdersverklaring te uploaden. Huurt u niet bij wooncompagnie dan heeft u wel een verhuurdersverklaring nodig. Deze kunt u opvragen bij uw verhuurder.",
+                  "parentValue": "0",
+                  "options": "",
+                  "answer": null,
+                  "id": "5B3B8D46-35BE-49C9-B247-5A90192C0AEA",
+                  "type": "Toggle",
+                  "title": "Huurt u een woning bij Wooncompagnie?"
+               },
+               {
+                  "required": 1,
+                  "text": "",
+                  "parentValue": "0",
+                  "options": "",
+                  "answer": null,
+                  "id": "AC2E82D4-C6F2-48D0-80AE-62845DDF623C",
+                  "type": "Toggle",
+                  "title": "Heeft u een koopwoning?"
+               }
+            ],
+            "required": 1,
+            "text": "Heeft u een verhuurdersverklaring? Zo ja, zorg dan dat dit document geupload is bij &quot;Overige documenten&quot; bij &quot;mijn gegevens&quot; U heeft een verhuurdersverklaring nodig als u huurt of de afgelopen twee jaar gehuurd heeft.",
+            "options": "",
+            "answer": null,
+            "id": "9AF0C5DD-AE59-4E01-990B-22B1DAE75E80",
+            "type": "Toggle",
+            "title": "Heeft u een verhuurdersverklaring?"
+         }
+      ],
+      "canReact": true,  
+      "responseDate": "2022-09-27 00:00",  
+      "refusalReasons": [  
+         {
+            "name": "De woning is te klein",
+            "id": "25369170-054B-8543-1B29-AF3E6DE6F535"
+         },
+         {
+            "name": "De woning is te groot",
+            "id": "25364498-AA19-2EFF-B602-159094BCBB7A"
+         },
+         {
+            "name": "De huur is te hoog",
+            "id": "2537EB24-C01D-F069-42CF-19D0CB68EEFD"
+         },
+         {
+            "name": "De indeling bevalt niet",
+            "id": "9D01FA0C-5CA3-460D-BE7F-736E7364BF74"
+         },
+         {
+            "name": "De buurt of het dorp bevalt niet",
+            "id": "BB036B67-16BD-42EF-A130-08DA81245F64"
+         },
+         {
+            "name": "Kwaliteitsgebreken aan de woning",
+            "id": "253371E1-BB62-0829-4947-52C1B2B005B9"
+         },
+         {
+            "name": "Persoonlijke omstandigheden",
+            "id": "EE0043F1-BE4E-4CCD-A6F1-5B2FF772519C"
+         },
+         {
+            "name": "Medische redenen",
+            "id": "E8FF7EF2-6C6F-40D9-93C1-96287BD75007"
+         },
+         {
+            "name": "Ik ben reeds voorzien",
+            "id": "2537B2EE-FBE1-3F9A-870D-A42111C6B5D0"
+         },
+         {
+            "name": "Anders, namelijk:",
+            "id": "25381B8B-A3F7-B2FD-11D4-9778EDBDB2B6"
+         }
+      ],
+      "reaction": null, 
+      "meetingDate": null,  
+      "missingDocuments": [  
+         {
+            "needs": 1,
+            "name": "Inkomensverklaring",
+            "has": 0,
+            "group": "8E5E7FE9-991B-4A97-9871-202F7674F952"
+         },
+         {
+            "needs": 1,
+            "name": "Woonverklaring",
+            "has": 0,
+            "group": "8FF84936-6FF5-41E6-8642-E3BFDEF4E805"
+         }
+      ],
+      "isTooLate": false,  
+      "address": "IJsselmeerweg 10, marken"  
+   },
+   "hof": "088D7B51-83F7-4DE6-8C48-376A107FEF70",  
+   "regdate": "2022-09-22 15:15:20",  
+   "path": "EMPTY", 
+   "attachments": null,  
+   "name": "Voorlopige Aanbieding - Bewoonde staat",  
+   "id": "655E4072-319E-41DB-A45D-DAA859B39F18",
+   "type": "house",  
+   "offertype": "interest"  
+}

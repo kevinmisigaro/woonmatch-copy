@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="232" viewBox="0 0 232 232">
+  <g id="Group_11575" data-name="Group 11575" transform="translate(-3510.367 6839.082)">
+    <g id="Ellipse_54" data-name="Ellipse 54" transform="translate(3510.367 -6839.082)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.2">
+      <circle cx="116" cy="116" r="116" stroke="none"/>
+      <circle cx="116" cy="116" r="115.5" fill="none"/>
+    </g>
+    <g id="Ellipse_55" data-name="Ellipse 55" transform="translate(3530.367 -6821.082)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="97.5" cy="97.5" r="97.5" stroke="none"/>
+      <circle cx="97.5" cy="97.5" r="97" fill="none"/>
+    </g>
+    <g id="Ellipse_56" data-name="Ellipse 56" transform="translate(3555.367 -6797.119)" fill="none" stroke="#93c01f" stroke-width="1" opacity="0.38">
+      <circle cx="72.5" cy="72.5" r="72.5" stroke="none"/>
+      <circle cx="72.5" cy="72.5" r="72" fill="none"/>
+    </g>
+    <path id="Icon_awesome-compress-arrows-alt" data-name="Icon awesome-compress-arrows-alt" d="M16.956,23.829H7.46a1.982,1.982,0,0,0-1.441,3.392l2.789,2.565L.4,38a1.306,1.306,0,0,0,0,1.87l2.154,2.1a1.385,1.385,0,0,0,1.916,0l8.419-8.216,2.637,2.73a2.038,2.038,0,0,0,3.468-1.407V25.814A2.006,2.006,0,0,0,16.956,23.829Zm9.5-5.3h9.5a1.983,1.983,0,0,0,1.441-3.392s-4.2.13-2.8-2.565S43.011,4.36,43.011,4.36a1.306,1.306,0,0,0,0-1.87L40.857.388a1.385,1.385,0,0,0-1.916,0L30.522,8.6l-2.637-2.73a2.038,2.038,0,0,0-3.468,1.407v9.267A2.006,2.006,0,0,0,26.452,18.533Zm8.139,11.253,2.8-2.573a1.977,1.977,0,0,0-1.441-3.384h-9.5a2.006,2.006,0,0,0-2.035,1.986v9.267a2.044,2.044,0,0,0,3.476,1.407l2.628-2.722,8.419,8.216a1.385,1.385,0,0,0,1.916,0l2.154-2.1a1.306,1.306,0,0,0,0-1.87ZM15.515,5.882,12.887,8.6,4.467.388a1.385,1.385,0,0,0-1.916,0L.4,2.49a1.306,1.306,0,0,0,0,1.87l8.419,8.216-2.8,2.573A1.977,1.977,0,0,0,7.46,18.533h9.5a2.006,2.006,0,0,0,2.035-1.986V7.281A2.044,2.044,0,0,0,15.515,5.882Z" transform="translate(3606.163 -6745.804)" fill="#3aa935"/>
+  </g>
+</svg>
