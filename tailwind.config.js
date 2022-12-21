@@ -31,14 +31,14 @@ module.exports = {
     extend: {
       colors: {
         'primary': {
-          DEFAULT: '#8EB429',
+          DEFAULT: '#35A8DF',
         },
         'secondary': {
-          DEFAULT: '#535453',
+          DEFAULT: '#871C55',
           "200": "#666666"
         },
         'tertiary': {
-          DEFAULT: '#429B35',
+          DEFAULT: '#871C55',
         },
         'additional': {
           DEFAULT: '#153E90',

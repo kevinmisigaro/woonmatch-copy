@@ -53,7 +53,7 @@ export const HomepageContent = ({ houses, offersRef }) => {
 
       <div className="relative pb-[15%] overflow-hidden ">
         <div className="relative  ">
-          <div className="absolute top-0 left-0 right-[15%] 3xl:right-[20%]  rounded-r-lg bottom-0 bg-gradient-to-r from-apple  to-lime-400 -z-10"></div>
+          <div className="absolute top-0 left-0 right-[15%] 3xl:right-[20%]  rounded-r-lg bottom-0 bg-tertiary -z-10"></div>
           <div className="container flex z-1">
             <div className="flex-1">
               <div
@@ -62,7 +62,7 @@ export const HomepageContent = ({ houses, offersRef }) => {
                 py-[40px] lg:py-[90px] 3xl:py-[140px]  
                  lg:leading-[14px] xl:leading-[18px] 3xl:leading-[30px] 5xl:leading-[50px]
                 space-y-4 3xl:space-y-5 text-white ">
-                <h2 className="">WIE WE ZIJN</h2>
+                <h2 className="text-primary">WIE WE ZIJN</h2>
 
                 <div className="3xl:w-[110%] pb-2">
                   <h3 className="section-hedaer leading-8 5xl:leading-[60px]">
@@ -126,7 +126,7 @@ export const HomepageContent = ({ houses, offersRef }) => {
         className="relative container mx-auto  
          lg:-mt-20 xl:-mt-[100px] 3xl:-mt-[15%]  3xl:pt-[130px]
          mb-10  xl:mb-[90px] 3xl:mb-[130px]">
-        <h2 className="text-apple ">ONTWIKKELINGEN</h2>
+        <h2 className="text-tertiary">ONTWIKKELINGEN</h2>
         <h3 className="section-hedaer text-primary mt-3">
           Meer nieuws & updates
         </h3>

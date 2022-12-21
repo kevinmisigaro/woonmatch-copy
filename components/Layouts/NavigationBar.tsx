@@ -32,7 +32,7 @@ const NavigationBar = ({ onRefSet }: Props) => {
               <Link href="/">
                 <a className=" ">
                   <img
-                    src="/images/logo-colored.svg"
+                    src="/images/woonmatch-waterland-colored.png"
                     className="h-[30px] 3xl:h-[48px] w-auto"
                   />
                 </a>

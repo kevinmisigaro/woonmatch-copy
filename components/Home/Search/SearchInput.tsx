@@ -22,7 +22,7 @@ export function SearchInput({
       <div className="relative flex w-full rounded text-fuscous-gray-300">
         <div className="flex items-center flex-1 bg-white input_box_size justify-center rounded-l-md">
           <div className="ml-[20px]">
-            <img src="/images/search.svg" />
+            <img src="/images/search.svg" className="text-tertiary" />
           </div>
           <input
             type="text"
@@ -50,7 +50,7 @@ export function SearchInput({
                     w-[100px]
                     md:w-[180px]
                     3xl:w-[230px]
-                    bg-apple
+                    bg-tertiary
                     rounded-r-md 
                     rounded-l-none 
                     text-white">

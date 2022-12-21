@@ -64,7 +64,7 @@ const Footer = ({ children = null }: Props) => {
               <div className="pr-20 ">
                 <a href="/" className="mb-[80px]">
                   <img
-                    src="/images/logo-colored.svg"
+                    src="/images/woonmatch-waterland-colored.png"
                     className="h-[50px] 3xl:h-[70px] w-auto mb-[30px] 3xl:mb-[55px]"
                   />
                 </a>
@@ -142,7 +142,7 @@ const Footer = ({ children = null }: Props) => {
           </div>
         </div>
       </div>
-      <div className="bg-fuscous-gray py-2 text-white 2xl:text-lg">
+      <div className="bg-tertiary py-2 text-white 2xl:text-lg">
         <div className="container md:text-[14px]">
           Copyright &copy; {time} Woonmatch
         </div>
