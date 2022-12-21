@@ -98,7 +98,7 @@ const LoginPage: React.FC<any> = () => {
             <Link href="/">
               <a>
                 <img
-                  src="images/logo-colored.svg"
+                  src="/images/woonmatch-waterland-colored.png"
                   className="w-20 lg:w-40 h-auto mt-8 lg:mt-0 mb-20"
                 />
               </a>

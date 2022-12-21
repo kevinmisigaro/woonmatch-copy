@@ -270,24 +270,24 @@ const RegisterPage: React.FC<any> = () => {
 
   return (
     <Layout title="Register">
-      <div className="flex flex-row w-full z-0">
-        <div className="md:basis-1/4 bg-register"></div>
-        <div className="md:basis-3/4 bg-red-200">
-          <div className="bg-gradient-to-r from-tertiary to-primary py-3">
+      <div className="w-full z-0">
+        <div className="bg-gradient-to-r from-tertiary to-primary  p-20">
+          <div className="py-3 flex flex-row justify-center">
             <img
-              src="images/logo-white.svg"
+              src="/images/woonmatch-waterland-white.png"
               alt="image"
               className="w-40 lg:w-64 pl-12 h-auto mt-8 pt-5 lg:mt-0 mb-8"
             />
           </div>
-          <div className="w-full bg-white bg-rings h-screen rounded-md py-10 px-4 md:px-8 xl:px-16">
+          <div className="w-full bg-white h-screen rounded-md py-10 px-4 md:px-8 xl:px-16">
             <h2
-              className="text-xl lg:text-3xl font-medium mb-4"
-              onClick={() => setConfirmPrivacy(true)}>
+              className="text-xl text-center lg:text-3xl font-medium mb-4"
+              onClick={() => setConfirmPrivacy(true)}
+            >
               Regel uw inschrijving
             </h2>
 
-            <p className="mb-10 font-thin">
+            <p className="mb-10 font-thin text-center">
               Nog niet ingeschreven bij Woonmatch? Meld u dan nu aan als
               woningzoekende! <br /> Inschrijven bij Woonmatch is gratis. Wilt u
               zich samen met uw partner <br /> inschrijven? Houd dan het
@@ -297,11 +297,13 @@ const RegisterPage: React.FC<any> = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-24">
               <form
                 className="space-y-8 w-full 2xl:w-10/12"
-                onSubmit={onSubmit}>
+                onSubmit={onSubmit}
+              >
                 <div>
                   <label
                     htmlFor="email"
-                    className="flex items-center space-x-2 mb-1 font-medium text-sm">
+                    className="flex items-center space-x-2 mb-1 font-medium text-sm"
+                  >
                     <img src="/icons/gmail.svg" className="w-4" />
                     <span>E-mailadres*</span>
                   </label>
@@ -330,7 +332,8 @@ const RegisterPage: React.FC<any> = () => {
                 <div>
                   <label
                     htmlFor="dob"
-                    className="flex items-center space-x-2 mb-1 font-medium text-sm">
+                    className="flex items-center space-x-2 mb-1 font-medium text-sm"
+                  >
                     <img src="/icons/002-calendar.svg" className="w-4" />
                     <span>Geboortedatum*</span>
                   </label>
@@ -352,7 +355,8 @@ const RegisterPage: React.FC<any> = () => {
                 <div className="relative">
                   <label
                     htmlFor="password"
-                    className="flex items-center space-x-2 font-medium text-sm">
+                    className="flex items-center space-x-2 font-medium text-sm"
+                  >
                     <img src="/icons/001-user.svg" className="w-4" />
                     <span>Wachtwoord*</span>
                   </label>
@@ -391,7 +395,8 @@ const RegisterPage: React.FC<any> = () => {
                 <div>
                   <label
                     htmlFor="repeatePassword"
-                    className="flex items-center space-x-2 font-medium text-sm">
+                    className="flex items-center space-x-2 font-medium text-sm"
+                  >
                     <img src="/icons/001-user.svg" className="w-4" />
                     <span>Wachtwoord bevestigen*</span>
                   </label>
@@ -428,7 +433,8 @@ const RegisterPage: React.FC<any> = () => {
                 ) : (
                   <button
                     type="submit"
-                    className="w-5/6 bg-tertiary text-white px-4 py-3 rounded-md">
+                    className="w-5/6 bg-tertiary text-white px-4 py-3 rounded-md"
+                  >
                     Maak account aan
                   </button>
                 )}
@@ -497,7 +503,8 @@ const RegisterPage: React.FC<any> = () => {
                 className={`${
                   values.password !== values.password.toLowerCase() &&
                   "line-through"
-                }`}>
+                }`}
+              >
                 Bevat minimaal 1 hoofdletter
               </li>
               <li
@@ -505,7 +512,8 @@ const RegisterPage: React.FC<any> = () => {
                   /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(
                     values.password
                   ) && "line-through"
-                }`}>
+                }`}
+              >
                 Bevat minimaal 1 leesteken
               </li>
             </ul>
@@ -520,7 +528,8 @@ const RegisterPage: React.FC<any> = () => {
                 values.password == values.confirmPassword &&
                 values.confirmPassword.length > 0 &&
                 "line-through"
-              }`}>
+              }`}
+            >
               Wachtwoorden zijn gelijk{" "}
             </p>
           </div>
@@ -530,14 +539,17 @@ const RegisterPage: React.FC<any> = () => {
       <RegisterPopUp
         title="Voor de zekerheid"
         show={confirmEmailAge}
-        onClose={() => setConfirmEmailAge(false)}>
+        onClose={() => setConfirmEmailAge(false)}
+      >
         <div className="px-10 my-10">
           <p className="mb-4 font-light text-gray-500">
             Met deze gegevens gaat u zich nu inschrijven.
           </p>
 
           <p className="mb-12 font-light text-gray-500">
-            <span className="font-medium pr-1">Let op:</span>U kunt uw geboortedatum later niet meer aanpassen. Vul uw gegevens dus goed in.
+            <span className="font-medium pr-1">Let op:</span>U kunt uw
+            geboortedatum later niet meer aanpassen. Vul uw gegevens dus goed
+            in.
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-24">
@@ -549,7 +561,8 @@ const RegisterPage: React.FC<any> = () => {
               <div className="mb-6">
                 <label
                   htmlFor="email"
-                  className="flex items-center space-x-2 mb-1 font-medium text-sm">
+                  className="flex items-center space-x-2 mb-1 font-medium text-sm"
+                >
                   <img src="/icons/gmail.svg" className="w-4" />
                   <span>E-mailadres*</span>
                 </label>
@@ -564,7 +577,8 @@ const RegisterPage: React.FC<any> = () => {
               <div className="mb-10">
                 <label
                   htmlFor="dob"
-                  className="flex items-center space-x-2 mb-1 font-medium text-sm">
+                  className="flex items-center space-x-2 mb-1 font-medium text-sm"
+                >
                   <img src="/icons/002-calendar.svg" className="w-4" />
                   <span>Geboortedatum*</span>
                 </label>
@@ -584,13 +598,15 @@ const RegisterPage: React.FC<any> = () => {
         <div className="grid grid-cols-2">
           <button
             className="py-4 px-4 text-primary hover:text-primary bg-transparent border-t border-primary w-full"
-            onClick={() => setConfirmEmailAge(false)}>
+            onClick={() => setConfirmEmailAge(false)}
+          >
             Nee,deze gegevens kloppen niet
           </button>
 
           <button
             className="text-center py-4  text-white bg-apple border-t border-tertiary"
-            onClick={handleConfirmEmailPopUp}>
+            onClick={handleConfirmEmailPopUp}
+          >
             Dit zijn mijn gegevens
           </button>
         </div>
@@ -600,7 +616,8 @@ const RegisterPage: React.FC<any> = () => {
       <RegisterPopUp
         show={showError}
         onClose={() => setShowError(false)}
-        title="Let op!">
+        title="Let op!"
+      >
         <div className="px-10 py-5 h-72">
           <ul className="list-disc">
             {errors.map((e, i) => (
@@ -614,7 +631,8 @@ const RegisterPage: React.FC<any> = () => {
       <RegisterPopUp
         title="Privacyverklaring & Disclaimer"
         show={confirmPrivacy}
-        onClose={() => setConfirmPrivacy(false)}>
+        onClose={() => setConfirmPrivacy(false)}
+      >
         <div className="space-y-8 px-8 md:px-16 my-10 h-96 overflow-y-auto text-justify">
           <div className="flex flex-row items-center border-b border-gray-200 pb-9">
             <div className="basis-1/4">
@@ -738,13 +756,15 @@ const RegisterPage: React.FC<any> = () => {
         <div className="flex flex-wrap md:flex-nowrap items-center justify-center">
           <button
             className="py-4 px-4 text-tertiary hover:text-tertiary bg-transparent border-t border-tertiary w-full md:w-1/2"
-            onClick={() => setConfirmPrivacy(false)}>
+            onClick={() => setConfirmPrivacy(false)}
+          >
             Niet akkoord
           </button>
 
           <button
             className="py-4 px-4 text-white bg-tertiary border-t border-tertiary w-full md:w-1/2"
-            onClick={submitPrivacy}>
+            onClick={submitPrivacy}
+          >
             Akoord met privacyverklaring
           </button>
         </div>
